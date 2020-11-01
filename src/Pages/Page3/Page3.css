@@ -10,3 +10,11 @@
     margin-left: 400px;
     font-family: 'Advent Pro', sans-serif;
 }
+.spinner-container{
+    display:flex;
+    justify-content:center;
+    text-align: center;
+}
+.spinner{
+    max-width: 300px;
+}
