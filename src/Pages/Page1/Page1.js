@@ -2,8 +2,8 @@ import React, {useState, useEffect} from 'react';
 import './Page1.css';
 import Spinner from '../../spinner.gif';
 
-const titulo = 'Desarrolladora Frontend y Productora Audiovisual';
-const text = 'Soy resolutiva, responsable y me gusta trabajar en equipo. Siempre dispuesta a enfrentar nuevos desafíos, y a seguiraprendiendo para perfeccionarme y poder insertarme laboral y profesionalmente como Desarrolladora Frontend'
+const titulo = 'Desarrolladora Frontend';
+const text = 'Me egresé en ADA ITW como Desarrolladora Frontend Jr. Mi objetivo es seguir capacitándome día a día para crecer de manera personal y poder insertarme laboralmente. Me considero resolutiva, curiosa y responsable. Siempre predispuesta para enfrentar nuevos desafíos.'
 
 const Page1 = () => {
 

@@ -2,8 +2,8 @@ import React, {useState, useEffect} from 'react';
 import './Page3.css';
 import Spinner from '../../spinner.gif';
 
-const titulo1 = 'Ada ITW - (Febrero 2020 - en curso)';
-const text1 = 'Desarrolladora Web Frontend. 400 horas. HTML5, CSS3, Sass, Javascript - ES6, Git, GitHub, React.Js, Responsive Design';
+const titulo1 = 'Ada ITW - (Febrero - Noviembre 2020)';
+const text1 = 'Desarrolladora Web Frontend Jr. 400 horas. HTML5, CSS3, Sass, Javascript - ES6, Git, GitHub, React.Js, Responsive Design';
 
 const titulo2 = 'Tea Imagen - (2015 - 2017)';
 const text2 = 'Técnica Superior en Producción Integral de TV y Servicios Audiovisuales';
