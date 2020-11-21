@@ -11,8 +11,11 @@ const Header = () => {
         <header className="main-header">
 
            <div className="logo-header">
-           <FontAwesomeIcon icon={faFemale} className='faFemale' / >  
-           <h1>Ornella Sciarrillo</h1>
+           <FontAwesomeIcon icon={faFemale} className='faFemale' / >
+           <Link to="/">
+               <h1>Ornella Sciarrillo</h1>
+           </Link>  
+           
            </div>
 
            <div className="text-header">

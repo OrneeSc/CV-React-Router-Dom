@@ -9,17 +9,20 @@ import Header from './Componentes/Header/Header';
 import Page1 from './Pages/Page1/Page1';
 import Page2 from './Pages/Page2/Page2';
 import Page3 from './Pages/Page3/Page3';
-
-
-
+import Index from './Componentes/Index/Index';
 
 const App = () => {
   return (
     <Fragment> 
       <BrowserRouter>
-        <Header />
+        <Header /> 
 
       <Switch>
+        
+        <Route exact path="/">
+          <Index />
+        </Route>
+
         <Route exact path="/SobreMi">
           <Page1 />
         </Route>
