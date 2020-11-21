@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import './Page3.css';
 // import Spinner from '../../spinner.gif';
 
