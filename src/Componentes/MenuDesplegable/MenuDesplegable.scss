@@ -1,0 +1,34 @@
+@media (min-width: 320px){
+.menu-container{
+    display:none;
+    width: 100%;
+    height: 100vh;
+    background-color: #6980c494;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        cursor: pointer;
+    }
+    .a-nav{
+        color: white;  
+        text-decoration: none;
+        padding: 10px 38px;
+        font-weight: 600;
+        font-family: 'Advent Pro', sans-serif;
+        font-size: 20px;
+        margin: 0 25px 30px;
+        &:active{
+            text-decoration: none;
+            outline: none;
+        }
+    }
+}
+
+@media (min-width: 561px){
+    .menu-container{
+        display:none;
+    }
+}

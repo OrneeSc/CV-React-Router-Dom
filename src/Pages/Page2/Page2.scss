@@ -1,0 +1,43 @@
+@media (min-width: 320px){
+    .page2-container{
+        display:flex;
+        box-sizing: border-box;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+        .page2-content{
+            margin-top: 80px;
+            max-width: 250px;
+            font-family: 'Advent Pro', sans-serif;
+            h2{
+                font-size: 25px;
+            }
+            p{
+                font-size:20px;
+                box-sizing: border-box;
+            }
+        } 
+    }
+}
+
+@media (min-width: 561px){
+    .page2-container{
+        display:flex;
+        box-sizing: border-box;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+        .page2-content{
+            margin-top: 80px;
+            font-family: 'Advent Pro', sans-serif;
+            max-width: 540px;
+            h2{
+                font-size: 30px;
+            }
+            p{
+                font-size:25px;
+                box-sizing: border-box;
+            }
+        }
+    }
+}

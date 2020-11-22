@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import './App.css';
+import './App.scss';
 import {
   BrowserRouter,
   Switch,
@@ -10,14 +10,15 @@ import Page1 from './Pages/Page1/Page1';
 import Page2 from './Pages/Page2/Page2';
 import Page3 from './Pages/Page3/Page3';
 import Index from './Componentes/Index/Index';
+import MenuDesplegable from './Componentes/MenuDesplegable/MenuDesplegable';
 
 const App = () => {
   return (
     <Fragment>  
-      
       <BrowserRouter>
-        <Header /> 
-
+        <Header />
+        <MenuDesplegable /> 
+      
       <Switch>
         
         <Route exact path="/">
@@ -32,7 +33,7 @@ const App = () => {
           <Page2 />
         </Route>
   
-        <Route exact path="/Estudios">
+        <Route exact path="/Proyectos">
           <Page3 />
         </Route>
 

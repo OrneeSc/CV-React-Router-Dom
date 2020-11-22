@@ -1,5 +1,5 @@
 import React from 'react';
-import './Page3.css';
+import './Page3.scss';
 // import Spinner from '../../spinner.gif';
 
 const titulo1 = 'Ada ITW - (Febrero - Noviembre 2020)';
@@ -22,14 +22,14 @@ const Page3 = () => {
     //   }, []);
 
     return (
-        <div>
+        <div className='page3-container'>
         {/* {
             loading ?
             <div className="spinner-container">
                 <img src={Spinner} alt="Loading..." className='spinner'/>
             </div>
             : */}
-        <section id="page3" className="page3">
+        <section id="page3" className="page3-content">
             <h2>{titulo1}</h2>
                 <p>{text1}</p>
             <h2>{titulo2}</h2>

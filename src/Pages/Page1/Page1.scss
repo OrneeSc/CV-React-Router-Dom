@@ -1,0 +1,53 @@
+@media (min-width: 320px){
+    .page1-container{
+        display:flex;
+        box-sizing: border-box;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+        .page1-content{
+            margin-top: 80px;
+            max-width: 250px;
+            font-family: 'Advent Pro', sans-serif;
+            h2{
+                font-size: 25px;
+            }
+            p{
+                font-size:20px;
+                box-sizing: border-box;
+            }
+        } 
+    }
+}
+
+@media (min-width: 561px){
+    .page1-container{
+        display:flex;
+        box-sizing: border-box;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+        .page1-content{
+            margin-top: 80px;
+            font-family: 'Advent Pro', sans-serif;
+            max-width: 540px;
+            h2{
+                font-size: 30px;
+            }
+            p{
+                font-size:25px;
+                box-sizing: border-box;
+            }
+        }
+    }
+}
+
+
+// .spinner-container{
+//     display:flex;
+//     justify-content:center;
+//     text-align: center;
+// }
+// // .spinner{
+// //     max-width: 300px;
+// // }

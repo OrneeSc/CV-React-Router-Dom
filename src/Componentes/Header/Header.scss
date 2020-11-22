@@ -1,0 +1,113 @@
+@media (min-width: 320px){
+    .main-header{
+        display: flex;
+        align-items: center;
+        padding: 0 25px;
+        justify-content:space-around;
+        box-shadow: 0 0 15px #999;
+        background: #3D518C;
+        color: white;
+        flex-direction: row;
+        height: 75px;
+        font-family: 'Advent Pro', sans-serif;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+        .logo-header{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            .logo-link{
+                text-decoration:none;
+                &:focus{
+                    outline: none;
+                }
+            }
+            h1{
+                margin: 0;
+                padding-left: 20px;
+                font-size: 20px;
+                color: white;
+                text-decoration: none;
+            }
+            .faFemale{
+                font-size: 28px;
+                padding: 10px;
+                color: white;
+                margin-right:-20px;
+            }
+        }
+        nav {
+            margin-left: 25px;
+            cursor: pointer;
+            transition: all 0.2s linear; 
+            a{
+                color: white;  
+                text-decoration: none;
+                padding: 16px;
+                font-weight: 600;
+                font-family: 'Advent Pro', sans-serif;
+                font-size: 15px;
+                &:active{
+                    text-decoration: none;
+                    outline: none;
+                }
+            }
+        }
+    }
+    .text-header{
+        display: none; //////////////////////////////////////////////////////////////
+        padding: 25px;
+        .faIcons{
+            color:white;
+            // margin-left: -10px;
+            padding-right: 0;
+            font-size: 12px;
+        }
+    }
+    .btn-menu{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        text-align: center;
+        color: white;
+        background-color: #6980c4;
+        border: 1px solid #6980c4;
+        box-shadow: 50px grey;
+    }
+}
+@media (min-width: 399px){
+    .text-header{
+        padding: 0;
+        margin:0;
+        .faIcons{
+            color:white;
+            padding-right: 0;
+            font-size: 12px;
+            margin: 1px;
+        }
+    }
+}
+
+@media (min-width: 561px){
+    .main-header{
+        display: flex;
+        justify-content: space-between;
+        nav{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+            a{
+                margin: 0;
+                padding: 10px;
+                font-size: 17px;
+            }
+        }
+    }
+    .btn-menu{
+        display:none;
+    }
+    .text-header{
+        display: flex;
+        justify-content: center;
+  }
+}

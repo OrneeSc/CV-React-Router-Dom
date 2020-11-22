@@ -1,5 +1,5 @@
 import React from 'react';
-import './Page1.css';
+import './Page1.scss';
 // import Spinner from '../../spinner.gif';
 
 const titulo = 'Desarrolladora Frontend';
@@ -16,18 +16,18 @@ const Page1 = () => {
     //   }, []);
 
     return (
-        <div>
+        <div className="page1-container">
         {/* {
             loading ?
             <div className="spinner-container">
                 <img src={Spinner} alt="Loading..." className='spinner'/>
             </div>
             : */}
-            <section id="page1" className="page1">
+            <section id="page1" className="page1-content">
             <h2>{titulo}</h2>
                 <p>{text}</p>
             </section>
-        }
+        
         </div>
     )
 };
