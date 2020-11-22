@@ -6,7 +6,7 @@ const Index = () => {
     return (
         
         <div className="index-container">
-            <img className="fondo" src={Fondo} />
+            <img className="fondo" src={Fondo} alt='proximamente'/>
             <section className="index-content">
                 <h1>Próximamente</h1>
             </section>
