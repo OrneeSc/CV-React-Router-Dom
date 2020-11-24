@@ -1,15 +1,15 @@
 import React from 'react';
 import '../Index/Index.scss';
-import Fondo from '../../Assets/Fondo.jpg';
+import Gif from '../../Assets/Gif2.gif';
 
 const Index = () => {
     return (
         
         <div className="index-container">
-            <img className="fondo" src={Fondo} alt='proximamente'/>
-            <section className="index-content">
+            <img className="fondo" src={Gif} alt='proximamente'/>
+            {/* <section className="index-content">
                 <h1>Próximamente</h1>
-            </section>
+            </section> */}
         </div>
     )
 }

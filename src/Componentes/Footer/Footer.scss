@@ -1,0 +1,23 @@
+.footer-container {
+    display: flex;
+    margin-top: 85px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Advent Pro', sans-serif;
+    h3{
+        margin: 0;
+    }
+}
+
+.footer-content {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    margin: 0;
+    .linkedin{
+        width: 20px;
+        height: 20px;
+    }
+}

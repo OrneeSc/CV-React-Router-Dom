@@ -7,6 +7,7 @@ const MenuDesplegable = () => {
 
     return (
         <div className="menu-container">
+            
             <nav>
                 <Link to="/SobreMi" className='a-nav'>Sobre Mi</Link> 
                 <Link to="/Contacto" className='a-nav'>Contacto</Link>

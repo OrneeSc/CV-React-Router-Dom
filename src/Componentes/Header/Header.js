@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserGraduate, faPhone, faLaugh, faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
+
     return (
         
         <header className="main-header">
@@ -21,12 +22,12 @@ const Header = () => {
                     <FontAwesomeIcon icon={faLaugh} className='faIcons' / >  
                     <Link to="/Contacto">Contacto</Link>
                     <FontAwesomeIcon icon={faPhone} className='faIcons' / >
-                    <Link to="/Estudios">Estudios</Link>
+                    <Link to="/Proyectos">Proyectos</Link>
                     <FontAwesomeIcon icon={faUserGraduate} className='faIcons' / > 
                 </nav>
             </div>
 
-            <button className="btn-menu">
+            <button className="btn-menu" >
                 <FontAwesomeIcon icon={faBars} className='faBars' / >
             </button>
         </header>

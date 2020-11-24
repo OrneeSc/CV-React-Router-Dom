@@ -37,8 +37,6 @@
         }
         nav {
             margin-left: 25px;
-            cursor: pointer;
-            transition: all 0.2s linear; 
             a{
                 color: white;  
                 text-decoration: none;
@@ -58,7 +56,6 @@
         padding: 25px;
         .faIcons{
             color:white;
-            // margin-left: -10px;
             padding-right: 0;
             font-size: 12px;
         }
@@ -74,28 +71,27 @@
         box-shadow: 50px grey;
     }
 }
-@media (min-width: 399px){
-    .text-header{
-        padding: 0;
-        margin:0;
-        .faIcons{
-            color:white;
-            padding-right: 0;
-            font-size: 12px;
-            margin: 1px;
-        }
-    }
-}
+// @media (min-width: 399px){
+//     .text-header{
+//         padding: 0;
+//         margin:0;
+//         .faIcons{
+//             padding-right: 0;
+//             margin: 1px;
+//         }
+//     }
+// }
 
 @media (min-width: 561px){
     .main-header{
-        display: flex;
         justify-content: space-between;
         nav{
             display: flex;
+            cursor: pointer;
             justify-content: center;
             flex-direction: row;
             align-items: center;
+            transition: all 0.2s linear; 
             a{
                 margin: 0;
                 padding: 10px;

@@ -9,12 +9,46 @@
             margin-top: 80px;
             max-width: 250px;
             font-family: 'Advent Pro', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
             h2{
-                font-size: 25px;
+                font-size: 30px;
+                margin: 10px;
             }
             p{
                 font-size:20px;
                 box-sizing: border-box;
+            }
+            .page3-button{
+                font-family: 'Advent Pro', sans-serif;
+                font-weight: 600;
+                margin: 10px;
+                border-radius: 5px;
+                width:120px;
+                border: none;
+                font-size: 17px;
+                height: 40px;
+                background-color: #3D518C;
+                &:hover{
+                    background-color: #7484b4b2;
+                    color: #3D518C;
+                }
+                a{
+                    cursor: pointer;
+                    color: white;
+                    text-decoration: none;
+                    &:focus{
+                        outline: none;
+                    }
+                    &:active{
+                        color:  #24335f;
+                    }
+                    &:hover{
+                        color:#3D518C ;
+                    }
+                }
             }
         } 
     }
