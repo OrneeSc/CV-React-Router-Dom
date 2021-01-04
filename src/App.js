@@ -11,6 +11,7 @@ import Page2 from './Pages/Page2/Page2';
 import Page3 from './Pages/Page3/Page3';
 import Index from './Componentes/Index/Index';
 import Footer from './Componentes/Footer/Footer';
+import MenuDesplegable from './Componentes/MenuDesplegable/MenuDesplegable';
 
 const App = () => {
   return (
@@ -34,6 +35,10 @@ const App = () => {
   
         <Route exact path="/Proyectos">
           <Page3 />
+        </Route>
+
+        <Route exact path="/MenuDesplegable">
+          <MenuDesplegable />
         </Route>
 
       </Switch>

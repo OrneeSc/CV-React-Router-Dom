@@ -27,9 +27,9 @@ const Header = () => {
                 </nav>
             </div>
 
-            <button className="btn-menu" >
-                <FontAwesomeIcon icon={faBars} className='faBars' / >
-            </button>
+            <Link to="/MenuDesplegable">
+            <button className="btn-menu"><FontAwesomeIcon icon={faBars} className='faBars' / ></button>
+            </Link> 
         </header>
     )
 };
