@@ -2,9 +2,15 @@ import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import './Header.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUserGraduate, faPhone, faLaugh, faBars } from '@fortawesome/free-solid-svg-icons';
+import { faUserGraduate, faPhone, faLaugh, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
+
+    const [displayMenu, setDisplayMenu] = useState(true);
+
+    const showMenu = () => {
+        setDisplayMenu(!displayMenu);
+    }
 
     return (
         
@@ -26,9 +32,16 @@ const Header = () => {
                     <FontAwesomeIcon icon={faUserGraduate} className='faIcons' / > 
                 </nav>
             </div>
+            
 
-            <Link to="/MenuDesplegable">
-            <button className="btn-menu" ><FontAwesomeIcon icon={faBars} className='faBars' / ></button>
+            <Link to= { displayMenu ? "/MenuDesplegable" : "/"} >
+                <button className="btn-menu" onClick={showMenu}>
+                    { displayMenu ?
+                    <FontAwesomeIcon icon= {faBars} className='faBars'/>
+                    :
+                    <FontAwesomeIcon icon= {faTimes} className='faBars'/>
+                    }                    
+                </button>
             </Link> 
 
         </header>

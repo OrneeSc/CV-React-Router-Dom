@@ -11,8 +11,7 @@ const MenuDesplegable = () => {
             <nav>
                 <Link to="/SobreMi" className='a-nav'>Sobre Mi</Link> 
                 <Link to="/Contacto" className='a-nav'>Contacto</Link>
-                <Link to="/Proyectos" className='a-nav'>Proyectos</Link>
-                    
+                <Link to="/Proyectos" className='a-nav'>Proyectos</Link>    
             </nav> 
         </div>
     )
