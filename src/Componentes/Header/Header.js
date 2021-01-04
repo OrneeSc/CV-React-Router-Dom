@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import './Header.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -28,8 +28,9 @@ const Header = () => {
             </div>
 
             <Link to="/MenuDesplegable">
-            <button className="btn-menu"><FontAwesomeIcon icon={faBars} className='faBars' / ></button>
+            <button className="btn-menu" ><FontAwesomeIcon icon={faBars} className='faBars' / ></button>
             </Link> 
+
         </header>
     )
 };

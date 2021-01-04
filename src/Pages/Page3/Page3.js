@@ -31,7 +31,7 @@ const Page3 = () => {
             : */}
             <section id="page3" className="page3-content">
                 <h2>En código</h2>
-                    <button type='button' className="page3-button"> 
+                    <button type="button" className="page3-button"> 
                         <a href="https://github.com/OrneeSc">GITHUB</a>
                     </button>  
                 <h2>En Netlify</h2>
