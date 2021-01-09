@@ -1,12 +1,10 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
 import './Header.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserGraduate, faPhone, faLaugh, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const Header = ({displayMenu, showMenu}) => {
-
-
 
     return (
         
