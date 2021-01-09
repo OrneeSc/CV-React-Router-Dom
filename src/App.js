@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React, {Fragment, useState} from 'react';
 import './App.scss';
 import {
   BrowserRouter,
@@ -14,10 +14,16 @@ import Footer from './Componentes/Footer/Footer';
 import MenuDesplegable from './Componentes/MenuDesplegable/MenuDesplegable';
 
 const App = () => {
+  const [displayMenu, setDisplayMenu] = useState(true);
+
+  const showMenu = () => {
+    console.log("Toggle display menu !!! ")
+    setDisplayMenu(!displayMenu);
+}
   return (
     <Fragment>  
       <BrowserRouter>
-        <Header />
+        <Header displayMenu={displayMenu} showMenu={showMenu}/>
       
       <Switch>
         
@@ -38,7 +44,7 @@ const App = () => {
         </Route>
 
         <Route exact path="/MenuDesplegable">
-          <MenuDesplegable />
+          <MenuDesplegable displayMenu={displayMenu} showMenu={showMenu} />
         </Route>
 
       </Switch>
